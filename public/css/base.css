@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pad-0-28
+{
+    padding: 0 28px !important;
+}
+.flex-sb {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-sb-center {
+    display: flex;
+    justify-content: space-between;
+}
+.table{
+    width: 100% !important;
+}
+.container{
+    width: 100% !important;
+}
+.hiddenId{
+    display: none !important;
+}
+.flex-grow-1 {
+    flex-grow: 1 !important;
+}
+.pad-20-0{
+    padding: 20px 0 !important;
+}
+.h1-title{
+    font-size: 28px !important;
+}
+.pad-12-0{
+    padding: 12px 0;
+}
+.mt-12{
+    margin-top: 12px;
+}
+.update, .delete, .showData{
+    padding: 4px 12px;
+    background-color: #ffc107;
+    border-radius: 2px;
+    border: none;
+    font-size: 14px;
+}
+th, td {
+    vertical-align: middle !important;
+}
+.delete{
+    color: #fff;
+    background-color: #dc3545;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.delete-link {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.update-link {
+    color: #000 !important;
+    text-decoration: none !important;
+    display: block;
+}
+.showData{
+    background-color: #157347;
+    color: #fff;
+    margin: 8px 0;
+    white-space: nowrap;
+}
+.dp-block{
+    display: block;
+    margin: 8px 0;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.list-infor{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 28px;
+}
+.list-infor li{
+    padding: 6px 0;
+    color:darkblue;
+}
+
+.list-infor li b{
+    padding: 6px 0;
+    color: #000;
+    font-weight: 500;
+    font-style: italic;
+}
+.text-center{
+    text-align: center;
+}
+.form-inline{
+    display: inline-block;
+}
+.w-10 {
+    width: 10%;
+}
+.w-20 {
+    width: 20%;
+}
+.w-30 {
+    width: 30%;
+}
+.w-25 {
+    width: 25%;
+}
+.pagination{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 24px !important;
+}
+.page-item{
+    display: inline-block !important;
+    padding: 8px 16px !important;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+    color: #000 !important;
+}
+.page-item:hover{
+    color: blue !important;
+    text-decoration: underline !important;
+}
+.page-active{
+    background-color: cornflowerblue !important;
+    color: #fff !important;
+    border-radius: 4px !important;
+}
